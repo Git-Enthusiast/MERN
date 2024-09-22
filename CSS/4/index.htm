@@ -20,7 +20,7 @@
              /* border:aqua solid 2px; */
              /* border-radius: 5px; */
              /* border-top-left-radius: 10px; */
-             font-style: oblique;
+              font-style: oblique;
               border-top: solid rgb(34, 189, 76) 5px;
               border-radius: 10px;
               border-bottom: solid rgb(209, 22, 22) 5px ;
@@ -75,11 +75,28 @@
               padding: 10px;
               margin: 30px;
         }
+
         
     </style>
 </head>
 <body>
     <h1>Full Stack Development</h1>
+    <!-- 
+
+The CSS properties that cannot be directly applied to the <span> element are:
+- width and height: These properties are used to set the dimensions of a block-level element, 
+  but <span> is an inline-level element.
+- margin-top, margin-bottom, padding-top, and padding-bottom: These properties affect the vertical 
+  spacing of a block-level element, but have limited effect on inline-level elements like <span>.
+- float and clear: These properties are used to position block-level elements, but do not 
+  apply directly to inline-level elements.
+
+However, it is possible to change the display type of a <span> element to a block-level 
+element using the display property, e.g. display: block;. This would 
+then allow the width, height, and margin/padding properties to be applied.
+
+-->
+   
     <span>Hi How are You?</span>
     <p class="firstclass">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
